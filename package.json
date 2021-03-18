@@ -1,0 +1,45 @@
+{
+  "name": "accenture-qr-testing",
+  "version": "1.0.0",
+  "description": "React POC showcasing forms and QR",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "history": "^4.10.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.9.5",
+    "react-qr-scanner": "^0.0.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "rxjs": "^6.6.3",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/react": "^6.1.21",
+    "prop-types": "^15.7.2",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
