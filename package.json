@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React POC showcasing forms and QR",
   "main": "src/index.js",
-  "homepage": "build/",
+  "homepage": ".",
   "eslintConfig": {
     "extends": "react-app"
   },
