@@ -2,7 +2,8 @@
   "name": "accenture-qr-testing",
   "version": "1.0.0",
   "description": "React POC showcasing forms and QR",
-  "main": "index.js",
+  "main": "src/index.js",
+  "homepage": "build/",
   "eslintConfig": {
     "extends": "react-app"
   },
