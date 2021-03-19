@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import Form from "../_atomics/form";
-import {TextInput} from "../_atomics/form/text";
-import {requiredValidator} from "../_atomics/form/validations";
-import {emailValidator} from "../_atomics/form/EmailAddress";
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 // import { accountService } from '_services';
 
@@ -23,10 +19,10 @@ function Nav() {
             <div className="navbar-nav">
                 <NavLink exact to="/" className="nav-item nav-link">Login</NavLink> |
                 <NavLink exact to="/scan" className="nav-item nav-link">Scan</NavLink>
-                { /* <button className="btn btn-link nav-item nav-link" onClick={ userService.logout }>Logout</button> */ }
+                { /* <button className="btn btn-link nav-item nav-link" onClick={ userService.logout }>Logout</button> */}
             </div>
         </nav>
     );
 }
 
-export { Nav };
+export {Nav};

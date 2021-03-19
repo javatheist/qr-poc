@@ -9,16 +9,14 @@ function App() {
     const pathname = useLocation().pathname || '';
 
     return (
-        <div>
+        <div className="container">
             <Nav/>
-            <div className="container pt-4">
-                <Switch>
-                    <Redirect from="/:url*(/+)" to={pathname.slice(0, -1)}/>
-                    <PrivateRoute exact path="/scan" component={Home}/>
-                    <Route path="/" component={Login}/>
-                    <Redirect from="*" to="/"/>
-                </Switch>
-            </div>
+            <Switch>
+                <Redirect from="/:url*(/+)" to={pathname.slice(0, -1)}/>
+                <PrivateRoute exact path="/scan" component={Home}/>
+                <Route path="/" component={Login}/>
+                <Redirect from="*" to="/"/>
+            </Switch>
         </div>
     );
 }
